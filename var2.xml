@@ -9,6 +9,11 @@
     <next>
       <block type="controls_whileUntil" id="101" inline="false">
         <field name="MODE">UNTIL</field>
+        <value name="NUMBER">
+          <block type="sensor_button" id="864">
+            <field name="OBJECT">ENTER</field>
+          </block>
+        </value>
         <statement name="DO">
           <block type="oled_cleardisplay" id="178">
             <next>
